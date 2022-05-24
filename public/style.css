@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(49, 50, 51);
+}
+
+.container{
+    background-image: linear-gradient(to right, #08AEEA, #2AF598);;
+    width: 72%;
+    height: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+#login{
+    color:white;
+    margin-left: 94%;
+    font-family: impact;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.area{
+    width: 85%;
+    height: 509px;
+    background-color: white;
+    float: right;
+    margin: 15px auto;
+    border-radius: 50% 0px 0px 50%;
+}
+
+.input{
+    display: block;
+    width: 350px;
+    height: 30px;
+    margin: 35px 48%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0px 0px 5px black;
+    padding-left: 10px;
+}
+#btn{
+    display: block;
+    width: 90px;
+    height: 30px;
+    margin: 60px 63%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-family: impact;
+    letter-spacing: 1px;
+    background-color: rgb(10, 233, 196);
+    box-shadow: 0px 0px 5px black;
+}

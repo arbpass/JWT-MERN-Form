@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-image: linear-gradient(to right,rgb(0, 255, 213), rgb(0, 140, 255));
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.navele{
+    color: white;
+    font-family: 'impact';
+    font-size: 35px;
+    margin-left: 10px;
+    text-shadow: 0px 0px 5px black;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+    <div class="container">
+        <form action="/login" method="GET">
+            <button id="login" type="submit">Login</button>
+        </form>
+
+        <div class="area">
+            <form action="/" method="POST">
+                <input name="thename" class="input" placeholder="Name"/>
+                <input name="regno" class="input" placeholder="Registration No."/>
+                <input name="phone" class="input" placeholder="Phone no."/>
+                <input name="course" class="input" placeholder="Course"/>
+                <input name="password" class="input" placeholder="Password"/>
+                <input name="cpassword" class="input" placeholder="Confirm Password"/>
+                <button type="submit" id="btn">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
